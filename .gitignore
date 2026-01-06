@@ -13,3 +13,8 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+
+# 前端构建产物
+app/src/main/assets/dapp/assets/chunk-*.js
+app/src/main/assets/dapp/assets/*.map
