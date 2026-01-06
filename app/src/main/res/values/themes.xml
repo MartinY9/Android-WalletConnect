@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App 默认主题（MainActivity 用） -->
+    <style name="Theme.AndroidAppTest"
+        parent="android:Theme.Material.Light">
+        <!-- 保留 ActionBar -->
+    </style>
+
+    <!-- WebView 专用主题（没有 ActionBar） -->
+    <style name="Theme.AndroidAppTest.NoActionBar"
+        parent="android:Theme.Material.Light.NoActionBar">
+        <!-- 关键：无 ActionBar -->
+    </style>
+
+</resources>

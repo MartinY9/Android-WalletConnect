@@ -1,0 +1,12 @@
+/* 重置默认 margin */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
+}
+
+/* 顶部安全区域 + 间距 */
+.container {
+  padding-top: 48px;   /* 👈 关键 */
+  padding-left: 16px;
+  padding-right: 16px;
+}

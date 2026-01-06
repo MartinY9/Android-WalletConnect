@@ -1,0 +1,3 @@
+cd .\dapp-web\
+npm run build
+npx vercel --prod
